@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "plan_id": "short-saturday-order",
+  "as_of": "2026-08-27",
+  "inventory": [
+    {
+      "lot_id": "expired-rose",
+      "flower": "rose",
+      "variety": "Freedom",
+      "color": "red",
+      "stems": 6,
+      "cost_per_stem": 1.4,
+      "available_on": "2026-08-27",
+      "expires_on": "2026-08-28"
+    },
+    {
+      "lot_id": "eligible-dahlia",
+      "flower": "dahlia",
+      "variety": "Cornel",
+      "color": "red",
+      "stems": 4,
+      "cost_per_stem": 1.1,
+      "available_on": "2026-08-27",
+      "expires_on": "2026-08-30"
+    },
+    {
+      "lot_id": "late-eucalyptus",
+      "flower": "eucalyptus",
+      "variety": "Baby Blue",
+      "color": "green",
+      "stems": 10,
+      "cost_per_stem": 0.35,
+      "available_on": "2026-08-30",
+      "expires_on": "2026-09-02"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "ember",
+      "name": "Ember Market Bouquet",
+      "requirements": [
+        {
+          "requirement_id": "focal",
+          "stems_per_unit": 3,
+          "accepts": [
+            {"flower": "rose", "color": "red", "rank": 0},
+            {"flower": "dahlia", "color": "red", "rank": 1}
+          ]
+        },
+        {
+          "requirement_id": "foliage",
+          "stems_per_unit": 2,
+          "accepts": [
+            {"flower": "eucalyptus", "rank": 0}
+          ]
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "saturday-stall",
+      "recipe_id": "ember",
+      "quantity": 4,
+      "due_on": "2026-08-29",
+      "priority": 1
+    }
+  ]
+}

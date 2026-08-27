@@ -1,10 +1,10 @@
 # Delivery checklist
 
 - [x] Research and select a differentiated project
-- [ ] Initialize repository and commit planning artifacts
-- [ ] Implement and test input parsing
-- [ ] Implement and test allocation engine
-- [ ] Implement and test outputs and CLI
-- [ ] Add examples, documentation, CI, and packaging
-- [ ] Build and clean-install artifacts
-- [ ] Review, publish, release, verify, and email
+- [x] Initialize repository and commit planning artifacts
+- [x] Implement and test input parsing
+- [x] Implement and test allocation engine
+- [x] Implement and test outputs and CLI
+- [x] Add examples, documentation, CI, and packaging
+- [x] Build and clean-install artifacts
+- [ ] Publish, release, verify, and email

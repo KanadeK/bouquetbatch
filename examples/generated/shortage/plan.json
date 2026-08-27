@@ -1,0 +1,76 @@
+{
+  "application_version": "0.1.0",
+  "as_of": "2026-08-27",
+  "plan_id": "short-saturday-order",
+  "requirements": [
+    {
+      "allocated_stems": 4,
+      "allocations": [
+        {
+          "cost_per_stem": "1.1",
+          "lot_id": "eligible-dahlia",
+          "match_rank": 1,
+          "stems": 4,
+          "total_cost": "4.4"
+        }
+      ],
+      "demand_stems": 12,
+      "diagnostics": {
+        "accepted_matches": [
+          {
+            "color": "red",
+            "flower": "rose",
+            "rank": 0
+          },
+          {
+            "color": "red",
+            "flower": "dahlia",
+            "rank": 1
+          }
+        ],
+        "allocated_elsewhere_stems": 0,
+        "eligible_supply_stems": 4,
+        "expired_stems": 6,
+        "unavailable_stems": 0
+      },
+      "due_on": "2026-08-29",
+      "order_id": "saturday-stall",
+      "priority": 1,
+      "recipe_id": "ember",
+      "recipe_name": "Ember Market Bouquet",
+      "requirement_id": "focal",
+      "shortage_stems": 8
+    },
+    {
+      "allocated_stems": 0,
+      "allocations": [],
+      "demand_stems": 8,
+      "diagnostics": {
+        "accepted_matches": [
+          {
+            "flower": "eucalyptus",
+            "rank": 0
+          }
+        ],
+        "allocated_elsewhere_stems": 0,
+        "eligible_supply_stems": 0,
+        "expired_stems": 0,
+        "unavailable_stems": 10
+      },
+      "due_on": "2026-08-29",
+      "order_id": "saturday-stall",
+      "priority": 1,
+      "recipe_id": "ember",
+      "recipe_name": "Ember Market Bouquet",
+      "requirement_id": "foliage",
+      "shortage_stems": 8
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "allocated_stems": 4,
+    "demand_stems": 20,
+    "shortage_stems": 16,
+    "total_cost": "4.4"
+  }
+}

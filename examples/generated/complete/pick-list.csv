@@ -1,0 +1,7 @@
+order_id,due_on,priority,recipe_id,recipe_name,requirement_id,lot_id,flower,variety,color,stems,match_rank,cost_per_stem,total_cost
+saturday-stall,2026-08-29,1,ember,Ember Market Bouquet,focal,dahlia-red-0827,dahlia,Cornel,red,6,1,1.1,6.6
+saturday-stall,2026-08-29,1,ember,Ember Market Bouquet,focal,rose-red-0827,rose,Freedom,red,12,0,1.4,16.8
+saturday-stall,2026-08-29,1,ember,Ember Market Bouquet,foliage,eucalyptus-0827,eucalyptus,Baby Blue,green,12,0,0.35,4.20
+sunday-stall,2026-08-30,2,blush,Blush Market Bouquet,focal,carnation-pink-0827,carnation,Hermes,pink,8,1,0.55,4.40
+sunday-stall,2026-08-30,2,blush,Blush Market Bouquet,focal,rose-blush-0827,rose,Quicksand,blush,12,0,1.3,15.6
+sunday-stall,2026-08-30,2,blush,Blush Market Bouquet,foliage,eucalyptus-0827,eucalyptus,Baby Blue,green,10,0,0.35,3.50

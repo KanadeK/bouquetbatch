@@ -1,5 +1,6 @@
 .venv/
 .uv-cache/
+.bouquetbatch-check-*/
 __pycache__/
 *.py[cod]
 .pytest_cache/

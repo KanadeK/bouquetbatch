@@ -25,6 +25,12 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/KanadeK/bouquetbatch"
+Repository = "https://github.com/KanadeK/bouquetbatch"
+Issues = "https://github.com/KanadeK/bouquetbatch/issues"
+Changelog = "https://github.com/KanadeK/bouquetbatch/blob/main/CHANGELOG.md"
+
 [project.scripts]
 bouquetbatch = "bouquetbatch.cli:main"
 
@@ -32,7 +38,6 @@ bouquetbatch = "bouquetbatch.cli:main"
 dev = [
   "build>=1.2,<2",
   "mypy>=1.15,<2",
-  "pip-audit>=2.9,<3",
   "pytest>=8.3,<9",
   "pytest-cov>=6,<8",
   "ruff>=0.11,<1",

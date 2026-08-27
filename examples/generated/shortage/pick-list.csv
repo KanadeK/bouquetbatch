@@ -1,0 +1,2 @@
+order_id,due_on,priority,recipe_id,recipe_name,requirement_id,lot_id,flower,variety,color,stems,match_rank,cost_per_stem,total_cost
+saturday-stall,2026-08-29,1,ember,Ember Market Bouquet,focal,eligible-dahlia,dahlia,Cornel,red,4,1,1.1,4.4

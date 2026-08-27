@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "plan_id": "invalid-zero-stems",
+  "as_of": "2026-08-27",
+  "inventory": [
+    {
+      "lot_id": "broken-lot",
+      "flower": "rose",
+      "variety": "Freedom",
+      "color": "red",
+      "stems": 0,
+      "cost_per_stem": 1.4,
+      "available_on": "2026-08-27",
+      "expires_on": "2026-08-29"
+    }
+  ],
+  "recipes": [],
+  "orders": []
+}

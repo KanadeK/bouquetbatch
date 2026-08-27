@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BouquetBatch report - late-summer-market</title>
+<style>
+:root { color-scheme: light; --ink:#26211d; --muted:#6e6259; --paper:#fffaf5;
+--line:#e8d9ce; --leaf:#315c4b; --rose:#b64f68; }
+* { box-sizing:border-box; }
+body { margin:0; background:#f3ebe5; color:var(--ink); font:15px/1.5 system-ui,sans-serif; }
+main { max-width:1100px; margin:40px auto; padding:0 20px 60px; }
+header { display:flex; justify-content:space-between; gap:24px; align-items:end; }
+.eyebrow { color:var(--rose); font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+h1 { margin:.2rem 0; font:700 clamp(2rem,5vw,4rem)/1.05 Georgia,serif; }
+.status { border:1px solid var(--line); border-radius:999px; padding:8px 14px;
+background:var(--paper); color:var(--leaf); font-weight:800; }
+.grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:28px 0; }
+.card, section { background:var(--paper); border:1px solid var(--line); border-radius:14px; }
+.card { padding:18px; }
+.card b { display:block; font:700 1.7rem Georgia,serif; }
+.card span { color:var(--muted); }
+section { margin-top:16px; padding:20px; overflow:auto; }
+h2 { margin:0 0 12px; font:700 1.25rem Georgia,serif; }
+table { width:100%; border-collapse:collapse; white-space:nowrap; }
+th, td { padding:10px 12px; border-bottom:1px solid var(--line); text-align:left; }
+th { color:var(--muted); font-size:.78rem; letter-spacing:.05em; text-transform:uppercase; }
+.empty { color:var(--muted); text-align:center; }
+footer { margin-top:20px; color:var(--muted); }
+@media (max-width:720px) { .grid { grid-template-columns:repeat(2,1fr); }
+header { display:block; } }
+</style>
+</head>
+<body>
+<main>
+<header><div><div class="eyebrow">BouquetBatch plan</div><h1>late-summer-market</h1>
+<div>As of 2026-08-27</div></div><div class="status">READY</div></header>
+<div class="grid">
+<div class="card"><b>60</b><span>stems demanded</span></div>
+<div class="card"><b>60</b><span>stems allocated</span></div>
+<div class="card"><b>0</b><span>stems short</span></div>
+<div class="card"><b>51.10</b><span>planned stem cost</span></div>
+</div>
+<section><h2>Requirement coverage</h2><table><thead><tr><th>Order</th><th>Recipe</th>
+<th>Requirement</th><th>Due</th><th>Priority</th><th>Allocated</th><th>Short</th>
+</tr></thead><tbody><tr><td>saturday-stall</td><td>Ember Market Bouquet</td><td>focal</td><td>2026-08-29</td><td>1</td><td>18 / 18</td><td>0</td></tr><tr><td>saturday-stall</td><td>Ember Market Bouquet</td><td>foliage</td><td>2026-08-29</td><td>1</td><td>12 / 12</td><td>0</td></tr><tr><td>sunday-stall</td><td>Blush Market Bouquet</td><td>focal</td><td>2026-08-30</td><td>2</td><td>20 / 20</td><td>0</td></tr><tr><td>sunday-stall</td><td>Blush Market Bouquet</td><td>foliage</td><td>2026-08-30</td><td>2</td><td>10 / 10</td><td>0</td></tr></tbody></table></section>
+<section><h2>Lot pick list</h2><table><thead><tr><th>Order</th><th>Requirement</th>
+<th>Lot</th><th>Stems</th><th>Match rank</th><th>Cost</th></tr></thead>
+<tbody><tr><td>saturday-stall</td><td>focal</td><td>dahlia-red-0827</td><td>6</td><td>1</td><td>6.6</td></tr><tr><td>saturday-stall</td><td>focal</td><td>rose-red-0827</td><td>12</td><td>0</td><td>16.8</td></tr><tr><td>saturday-stall</td><td>foliage</td><td>eucalyptus-0827</td><td>12</td><td>0</td><td>4.20</td></tr><tr><td>sunday-stall</td><td>focal</td><td>carnation-pink-0827</td><td>8</td><td>1</td><td>4.40</td></tr><tr><td>sunday-stall</td><td>focal</td><td>rose-blush-0827</td><td>12</td><td>0</td><td>15.6</td></tr><tr><td>sunday-stall</td><td>foliage</td><td>eucalyptus-0827</td><td>10</td><td>0</td><td>3.50</td></tr></tbody></table></section>
+<footer>Generated offline by BouquetBatch 0.1.0. No scripts or remote assets.</footer>
+</main>
+</body>
+</html>

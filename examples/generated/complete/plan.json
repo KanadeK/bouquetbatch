@@ -1,0 +1,168 @@
+{
+  "application_version": "0.1.0",
+  "as_of": "2026-08-27",
+  "plan_id": "late-summer-market",
+  "requirements": [
+    {
+      "allocated_stems": 18,
+      "allocations": [
+        {
+          "cost_per_stem": "1.1",
+          "lot_id": "dahlia-red-0827",
+          "match_rank": 1,
+          "stems": 6,
+          "total_cost": "6.6"
+        },
+        {
+          "cost_per_stem": "1.4",
+          "lot_id": "rose-red-0827",
+          "match_rank": 0,
+          "stems": 12,
+          "total_cost": "16.8"
+        }
+      ],
+      "demand_stems": 18,
+      "diagnostics": {
+        "accepted_matches": [
+          {
+            "color": "red",
+            "flower": "rose",
+            "rank": 0
+          },
+          {
+            "color": "red",
+            "flower": "dahlia",
+            "rank": 1
+          }
+        ],
+        "allocated_elsewhere_stems": 0,
+        "eligible_supply_stems": 32,
+        "expired_stems": 0,
+        "unavailable_stems": 0
+      },
+      "due_on": "2026-08-29",
+      "order_id": "saturday-stall",
+      "priority": 1,
+      "recipe_id": "ember",
+      "recipe_name": "Ember Market Bouquet",
+      "requirement_id": "focal",
+      "shortage_stems": 0
+    },
+    {
+      "allocated_stems": 12,
+      "allocations": [
+        {
+          "cost_per_stem": "0.35",
+          "lot_id": "eucalyptus-0827",
+          "match_rank": 0,
+          "stems": 12,
+          "total_cost": "4.20"
+        }
+      ],
+      "demand_stems": 12,
+      "diagnostics": {
+        "accepted_matches": [
+          {
+            "flower": "eucalyptus",
+            "rank": 0
+          }
+        ],
+        "allocated_elsewhere_stems": 10,
+        "eligible_supply_stems": 40,
+        "expired_stems": 0,
+        "unavailable_stems": 0
+      },
+      "due_on": "2026-08-29",
+      "order_id": "saturday-stall",
+      "priority": 1,
+      "recipe_id": "ember",
+      "recipe_name": "Ember Market Bouquet",
+      "requirement_id": "foliage",
+      "shortage_stems": 0
+    },
+    {
+      "allocated_stems": 20,
+      "allocations": [
+        {
+          "cost_per_stem": "0.55",
+          "lot_id": "carnation-pink-0827",
+          "match_rank": 1,
+          "stems": 8,
+          "total_cost": "4.40"
+        },
+        {
+          "cost_per_stem": "1.3",
+          "lot_id": "rose-blush-0827",
+          "match_rank": 0,
+          "stems": 12,
+          "total_cost": "15.6"
+        }
+      ],
+      "demand_stems": 20,
+      "diagnostics": {
+        "accepted_matches": [
+          {
+            "color": "blush",
+            "flower": "rose",
+            "rank": 0
+          },
+          {
+            "color": "pink",
+            "flower": "carnation",
+            "rank": 1
+          }
+        ],
+        "allocated_elsewhere_stems": 0,
+        "eligible_supply_stems": 42,
+        "expired_stems": 0,
+        "unavailable_stems": 0
+      },
+      "due_on": "2026-08-30",
+      "order_id": "sunday-stall",
+      "priority": 2,
+      "recipe_id": "blush",
+      "recipe_name": "Blush Market Bouquet",
+      "requirement_id": "focal",
+      "shortage_stems": 0
+    },
+    {
+      "allocated_stems": 10,
+      "allocations": [
+        {
+          "cost_per_stem": "0.35",
+          "lot_id": "eucalyptus-0827",
+          "match_rank": 0,
+          "stems": 10,
+          "total_cost": "3.50"
+        }
+      ],
+      "demand_stems": 10,
+      "diagnostics": {
+        "accepted_matches": [
+          {
+            "flower": "eucalyptus",
+            "rank": 0
+          }
+        ],
+        "allocated_elsewhere_stems": 12,
+        "eligible_supply_stems": 40,
+        "expired_stems": 0,
+        "unavailable_stems": 0
+      },
+      "due_on": "2026-08-30",
+      "order_id": "sunday-stall",
+      "priority": 2,
+      "recipe_id": "blush",
+      "recipe_name": "Blush Market Bouquet",
+      "requirement_id": "foliage",
+      "shortage_stems": 0
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "allocated_stems": 60,
+    "demand_stems": 60,
+    "shortage_stems": 0,
+    "total_cost": "51.10"
+  }
+}

@@ -6,6 +6,7 @@ import io
 import json
 from decimal import Decimal
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from typing import Any
 
 from bouquetbatch import __version__
@@ -232,9 +233,14 @@ def write_outputs(
 ) -> None:
     if output_directory.exists():
         raise OutputError(f"{output_directory}: output directory already exists")
-    output_directory.mkdir(parents=True)
-    (output_directory / "plan.json").write_text(render_json(plan), encoding="utf-8")
-    (output_directory / "pick-list.csv").write_text(
-        render_csv(document, plan), encoding="utf-8", newline=""
-    )
-    (output_directory / "report.html").write_text(render_html(plan), encoding="utf-8")
+    output_directory.parent.mkdir(parents=True, exist_ok=True)
+    with TemporaryDirectory(
+        prefix=f".{output_directory.name}-", dir=output_directory.parent
+    ) as temporary_name:
+        temporary = Path(temporary_name)
+        (temporary / "plan.json").write_text(render_json(plan), encoding="utf-8")
+        (temporary / "pick-list.csv").write_text(
+            render_csv(document, plan), encoding="utf-8", newline=""
+        )
+        (temporary / "report.html").write_text(render_html(plan), encoding="utf-8")
+        temporary.replace(output_directory)

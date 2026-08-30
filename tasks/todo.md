@@ -7,4 +7,4 @@
 - [x] Implement and test outputs and CLI
 - [x] Add examples, documentation, CI, and packaging
 - [x] Build and clean-install artifacts
-- [ ] Publish, release, verify, and email
+- [x] Publish, release, verify, and email
